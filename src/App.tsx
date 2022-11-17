@@ -1,7 +1,6 @@
 import React, { FC, Suspense, useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { Main } from './pages/Main';
-// import { Profile } from './pages/Profile';
 import { ChatList } from './components/ChatList';
 import { AUTHOR, Chat, Message, Messages } from './types';
 import { ChatPage } from './pages/ChatPage';
